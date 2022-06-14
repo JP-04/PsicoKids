@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background:linear-gradient(to right, #DAFFF8,#ACEBFF);
+    height: 100vh;
+    overflow: hidden;
+}
+#btn-entrar{
+    position: absolute;
+    height: 20px;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out ;
+    cursor: pointer;
+}
+#btn-entrar:hover{
+    height: 100px;
+}
+
+#laranjinha{
+    position: absolute;
+    height: 100px;
+    top: 45%;
+    left: 40%;
+    z-index: -1;
+}
+#casa-dois-andar{
+    height: 100vh;
+    z-index: 100;
+}
+#mato{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 30px;
+}
